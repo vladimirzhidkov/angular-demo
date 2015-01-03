@@ -1,0 +1,11 @@
+<h1>{{title}}</h1>
+<ul>
+    <li ng-repeat="item in items">{{item}}</li>
+</ul>
+<select ng-model="selectedItem" ng-options="value for value in items"></select>
+{{selectedItem}}
+<h2>Friends:</h2>{{data}}
+
+
+
+<!--<div style="width:900px;height:500px;" slick-grid data="tableData"></div>-->

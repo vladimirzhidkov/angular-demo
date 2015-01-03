@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+
+    <link rel="stylesheet" href="http://mleibman.github.io/SlickGrid/slick.grid.css" type="text/css"/>
+    <link rel="stylesheet" href="http://mleibman.github.io/SlickGrid/controls/slick.pager.css" type="text/css"/>
+    <link rel="MIME" href="home/friends.json" type="application/json"/>
+    <link rel="stylesheet" href="http://mleibman.github.io/SlickGrid/css/smoothness/jquery-ui-1.8.16.custom.css" type="text/css"/>
+
+
+
+</head>
+
+<body>
+    <div ng-app="app" class="container">
+
+        <ul>
+            <li><a ui-sref="app.home">Home</a></li>
+            <li><a ui-sref="app.about">About</a></li>
+            <li><a ui-sref="app.contact">Contact</a></li>
+        </ul>
+
+        <div class="app-body" ui-view ></div>
+
+    </div>
+
+</body>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
+<script src="http://mleibman.github.io/SlickGrid/lib/jquery.event.drag-2.2.js"></script>
+<script src="http://mleibman.github.io/SlickGrid/lib/jquery-ui-1.8.16.custom.min.js"></script>
+<script src="http://mleibman.github.io/SlickGrid/slick.core.js"></script>
+<script src="http://mleibman.github.io/SlickGrid/slick.formatters.js"></script>
+<script src="http://mleibman.github.io/SlickGrid/slick.editors.js"></script>
+
+<script src="http://mleibman.github.io/SlickGrid/plugins/slick.cellrangedecorator.js"></script>
+<script src="http://mleibman.github.io/SlickGrid/plugins/slick.cellrangeselector.js"></script>
+<script src="http://mleibman.github.io/SlickGrid/plugins/slick.cellselectionmodel.js"></script>
+
+<script src="http://mleibman.github.io/SlickGrid/slick.grid.js"></script>
+<script src="http://mleibman.github.io/SlickGrid/slick.groupitemmetadataprovider.js"></script>
+<script src="http://mleibman.github.io/SlickGrid/slick.dataview.js"></script>
+<script src="http://mleibman.github.io/SlickGrid/controls/slick.pager.js"></script>
+<script src="http://mleibman.github.io/SlickGrid/controls/slick.columnpicker.js"></script>
+
+
+
+<script src="http://code.angularjs.org/1.2.10/angular.js"></script>
+
+
+<script src="about/module.js"></script>
+<script src="app.js"></script>
+<script src="home/module.js"></script>
+<script src="services/friends.js"></script>
+<script src="home/controller.js"></script>
+<script src="home/slickGrid/slickGrid.js"></script>
+<script src="http://angular-ui.github.io/ui-router/release/angular-ui-router.js"></script>
+
+</html>
